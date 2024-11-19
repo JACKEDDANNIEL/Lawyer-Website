@@ -3,67 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Expert legal services in Last Will and Testament, Probate, and Trust.">
-    <title>Legal Solutions | Wills, Probate & Trusts</title>
+    <meta name="description" content="Modern legal services specializing in Last Will and Testament, Probate, and Trust creation.">
+    <title>Legal Experts | Wills, Probate & Trusts</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">Legal Solutions</div>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Legal Solutions Logo">
+            </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="menu-toggle">&#9776;</div>
         </nav>
     </header>
 
-    <section id="home">
-        <div class="hero">
-            <h1>Your Estate Planning Partner</h1>
-            <p>Guiding you through Last Will and Testament, Probate, and Trust with care and expertise.</p>
-            <a href="#services" class="cta-button">Our Services</a>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Your Trusted Legal Partner</h1>
+            <p>Comprehensive estate planning services tailored to your needs.</p>
+            <a href="#services" class="cta-button">Explore Our Services</a>
         </div>
     </section>
 
-    <section id="services">
+    <section id="services" class="services">
         <h2>Our Services</h2>
-        <div class="service-container">
-            <div class="service">
+        <div class="service-grid">
+            <div class="service-item">
                 <h3>Last Will & Testament</h3>
-                <p>Plan your legacy and secure your family's future with a tailored will.</p>
+                <p>Secure your legacy with a professionally drafted will.</p>
             </div>
-            <div class="service">
+            <div class="service-item">
                 <h3>Probate Services</h3>
-                <p>Navigate the legal complexities of probate with confidence.</p>
+                <p>Navigate probate with ease and confidence.</p>
             </div>
-            <div class="service">
-                <h3>Trust Setup</h3>
-                <p>Create trusts that safeguard your assets for generations.</p>
+            <div class="service-item">
+                <h3>Trust Creation</h3>
+                <p>Protect your assets for future generations.</p>
             </div>
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="about">
         <h2>About Us</h2>
-        <p>At Legal Solutions, we specialize in estate planning with personalized and professional services.</p>
+        <p>
+            At Legal Experts, we provide top-tier legal services to ensure your estate planning process is seamless and secure. With years of expertise, we’re committed to protecting your legacy.
+        </p>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="contact">
         <h2>Contact Us</h2>
         <form id="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Send Message</button>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Legal Solutions. All rights reserved.</p>
+        <p>&copy; 2024 Legal Experts. All Rights Reserved.</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
